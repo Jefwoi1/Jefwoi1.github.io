@@ -1,0 +1,76 @@
+@media screen and (max-width: 900px) {
+    #inputs #login1{
+       
+        left:15% ;
+       
+    }
+    #inputs #login2{
+       
+        left:40% ; 
+    }#inputs #login3{
+        left:65% ;
+        
+}}
+@media screen and (max-width:480px){
+    #container .fondoimg{
+        width: 100%;
+        height: 100vh;
+        background-size: 100% 100%;
+        background-repeat:no-repeat;
+    
+    }
+     #container .logo{
+    width: 100%;
+    height: 100px;
+    background-size: 40% 100%;
+    margin-left: 5%;
+    z-index: 2;
+    }
+    #container #inputs{
+        height: 800px;
+        margin: 50px;
+    
+        margin-left: 15%;
+        position: relative;
+       
+    }
+    #inputs #user{
+        width: 80%;
+        height: 6%;
+        margin-bottom: 3%;
+        position: absolute;
+        top: 30%;
+        left:10% ;
+        border-radius:calc(1*44px);
+        font-size: 20pt;
+        text-align: center;
+       
+    }
+    #inputs #pass{
+        top: 40%;
+        width: 80%;
+        height: 6%;
+        margin-bottom: 3%;
+        position: absolute;
+        left:10% ;
+        border-radius:calc(1*44px);
+        font-size: 20pt;
+        text-align: center;
+    }
+    #inputs #login1{
+        width: 60px;
+        height: 60px;
+        left:15% ;
+       
+    }
+    #inputs #login2{
+        width: 60px;
+        height: 60px;
+        left:45% ; 
+    }#inputs #login3{
+        width: 60px;
+        height: 60px;
+        left:75% ;
+        
+}
+ }
